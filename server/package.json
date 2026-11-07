@@ -1,0 +1,27 @@
+{
+  "name": "server",
+  "version": "1.0.0",
+  "description": "Video Game Store Server side",
+  "main": "app.js",
+  "scripts": {
+    "test": "npm test",
+    "start": "nodemon app.js"
+  },
+  "author": "Ahaan Desai",
+  "license": "ISC",
+  "dependencies": {
+    "@apollo/server": "^4.10.4",
+    "bcrypt": "^5.1.1",
+    "cors": "^2.8.5",
+    "dotenv": "^16.4.5",
+    "graphql": "^16.9.0",
+    "graphql-scalars": "^1.23.0",
+    "jsonwebtoken": "^9.0.2",
+    "mongoose": "^8.4.5",
+    "nodemon": "^3.1.4"
+  },
+  "type": "module",
+  "devDependencies": {
+    "@flydotio/dockerfile": "^0.5.9"
+  }
+}
