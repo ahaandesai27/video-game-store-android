@@ -7,7 +7,7 @@ import { UserProvider } from "../context/UserContext";
 
 const client = new ApolloClient({
   link: new HttpLink({
-    uri: "http://localhost:4000/api/graphql",
+    uri: "http://192.168.1.8:4000/api/graphql",
   }),
   cache: new InMemoryCache(),
 });
